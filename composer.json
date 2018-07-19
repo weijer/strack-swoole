@@ -1,6 +1,6 @@
 {
-    "name": "topthink/think-swoole",
-    "description": "Swoole extend for thinkphp5.1",
+    "name": "strack/swoole",
+    "description": "Swoole extend for strack service",
     "license": "Apache-2.0",
     "type": "think-extend",
     "authors": [
@@ -10,22 +10,11 @@
         }
     ],
     "require": {
-	"ext-swoole": ">=1.9.5",
-	"topthink/think-installer": "^2.0",
-	"topthink/framework": "5.1.*"
+	"ext-swoole": ">=1.9.5"
     },
     "autoload": {
         "psr-4": {
             "think\\swoole\\": "src"
-        },
-        "files": [
-            "src/command.php"
-        ]
-    },
-    "extra": {
-        "think-config": {
-        "swoole": "src/config.php",
-	    "swoole_server":"src/server_config.php"
         }
     }
 }
