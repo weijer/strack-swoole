@@ -2,7 +2,7 @@
     "name": "strack/swoole",
     "description": "Swoole extend for strack service",
     "license": "Apache-2.0",
-    "type": "think-extend",
+    "type": "strack-service",
     "authors": [
         {
             "name": "liu21st",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\swoole\\": "src"
+            "strack\\swoole\\": "src"
         }
     }
 }
