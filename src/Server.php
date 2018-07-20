@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace think\swoole;
+namespace strack\swoole;
 
 use Swoole\Http\Server as HttpServer;
 use Swoole\Server as SwooleServer;
