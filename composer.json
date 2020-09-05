@@ -15,7 +15,7 @@
     "strack/framework": "dev-master",
     "jeremeamia/superclosure": "^2.4",
     "xavier/xcron-expression": "^0.11",
-    "topthink/think-queue": "^2.0"
+    "strack/think-queue": "2.0.x-dev"
   },
   "autoload": {
     "psr-4": {
