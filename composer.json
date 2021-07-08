@@ -1,21 +1,35 @@
 {
-    "name": "topthink/think-swoole",
-    "description": "Swoole extend for thinkphp5",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
-        }
-    ],
-    "require": {
-	"ext-swoole": ">=1.8"
-    },
-    "autoload": {
-        "psr-4": {
-            "think\\swoole\\": "src"
-        },
-        "files": [
-        ]
+  "name": "strack/think-swoole",
+  "description": "Swoole extend for strack",
+  "license": "Apache-2.0",
+  "type": "think-extend",
+  "authors": [
+    {
+      "name": "liu21st",
+      "email": "liu21st@gmail.com"
     }
+  ],
+  "require": {
+    "ext-swoole": ">=1.9.5",
+    "strack/installer": "1.0",
+    "strack/framework": "dev-master",
+    "jeremeamia/superclosure": "^2.4",
+    "xavier/xcron-expression": "^0.11",
+    "strack/think-queue": "2.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\swoole\\": "src"
+    },
+    "files": [
+      "src/command.php"
+    ]
+  },
+  "extra": {
+    "think-config": {
+      "swoole": "src/config/swoole.php",
+      "swoole_server": "src/config/server.php",
+      "timer": "src/config/timer.php"
+    }
+  }
 }
